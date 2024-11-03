@@ -1,0 +1,108 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado */
+header {
+    background-color: #3a6ea5;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navegación */
+nav ul {
+    list-style-type: none;
+    background-color: #2f4f4f;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    display: inline-block;
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #4682b4;
+}
+
+/* Sección de noticias */
+section {
+    padding: 20px;
+}
+
+section h2 {
+    color: #3a6ea5;
+}
+
+article {
+    margin-bottom: 15px;
+}
+
+article h3 {
+    color: #4682b4;
+}
+
+/* Sección Acerca */
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+/* Tabla de Agenda */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #4682b4;
+    color: white;
+}
+
+/* Galería de imágenes y videos */
+.galeria, .videos {
+    margin-top: 15px;
+}
+
+.galeria img, .videos video {
+    width: 100%;
+    max-width: 200px;
+    margin: 5px;
+}
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
